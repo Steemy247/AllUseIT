@@ -1,0 +1,507 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 98%;
+    height: 99.8vh;
+    background: #E9ECEF;
+    background-size: cover;
+    display: table;
+}
+
+.signin {
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-color: white;
+    border-radius: 8px;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 350px;
+}
+
+h2{
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+}
+
+.input{
+    display: block;
+    width: 320px;
+    height: 45px;
+    outline: none;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 8px;
+    transition: .25s;
+}
+
+.input:hover{
+    display: block;
+    width: 320px;
+    height: 45px;
+    background: rgba(0,0,0,0,3);
+    outline: none;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 10px;
+    transition: .25s;
+}
+
+.input2{
+    display: block;
+    width: 333px;
+    height: 47px;
+    outline: none;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-bottom: 5px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 8px;
+    transition: .2s;
+}
+
+.btnSignin{
+    width: 332px;
+    height: 50px;
+    font-size: 16px;
+    background: #0092f9;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.btnSignin:hover{
+    width: 332px;
+    height: 50px;
+    font-size: 18px;
+    background: #1ea1ff;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 5px;
+    transition: .2s;
+}
+
+.btnSave{
+    width: 332px;
+    height: 50px;
+    font-size: 16px;
+    background: #0092f9;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    
+}
+
+.btnSave:hover{
+    width: 332px;
+    height: 50px;
+    background: #1ea1ff;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 5px;
+    transition: .2s;
+}
+
+label{
+    display: block;
+    font-size: 13px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+a{
+    display: block;
+    font-size: 13px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 5px;
+    color: aqua;
+}
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+/* Dashboard */
+
+.dboard-left_menu{
+    border: solid 1px;
+    width: 300px;
+    height: 100vh;
+    background-color: grey;
+    position: relative;
+    background-color: #0092f9;
+}
+
+.dboard-right_menu{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.h1{
+    font-size: 30px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.dboard-inner_settings{
+    padding: 20px;
+    font-family: sans-serif;
+    border: solid 1px;
+    text-align: left;
+}
+
+.brako_img{
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.setting_div{
+    display: inline-flex;
+    font-family: sans-serif;
+    text-align: left;
+    width: 87%;
+    transition: 0.3s;
+    padding: 13px;
+    color: white;
+}
+
+.setting_div2{
+    display: inline-flex;
+    font-family: sans-serif;
+    text-align: left;
+    width: 87%;
+    transition: 0.3s;
+    padding: 13px;
+    color: white;
+    position: absolute;
+    left: 0px;
+}
+
+.setting_div:hover{
+    display: inline-flex;
+    font-family: sans-serif;
+    text-align: left;
+    width: 89%;
+    background-color: #1ea1ff;
+    padding-left: 20px;
+    transition: 0.35s;
+    border-radius: 10px;
+}
+
+.setting_div:after{
+    display: inline-flex;
+    font-family: sans-serif;
+    text-align: left;
+    width: 89%;
+    background-color: #1ea1ff;
+    padding-left: 20px;
+    transition: 0.35s;
+    border-radius: 10px;
+}
+.setting_div_txt{
+    font-family: sans-serif;
+    text-align: left;
+    width: 100%;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+}
+
+.setting_div_img{
+    font-family: sans-serif;
+    text-align: left;
+    width: 26px;
+}
+
+/* ..................... ADMIN API ..................... */
+
+.headings{
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+.admin_labels{
+    width: 100%;
+    height: 28px;
+    font-size: 16px;
+    border-bottom: solid 1px;
+    padding-bottom: 6px;
+    padding-top: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.info_div{
+    display: inline-flex;
+    width: 95%;
+    height:40px;
+    font-weight: bold;
+}
+
+.info_div2{
+    display: inline-flex;
+    width: 95%;
+    height:40px;
+    transition: .05s;
+}
+
+.info_div2:hover{
+    display: inline-flex;
+    width: 95%;
+    height: 40px;
+    background-color: #CED4DA;
+    transition: .1s;
+    border-radius: 10px;
+}
+
+.info_btn{
+    width:60px;
+    height: 20px;
+    margin-left: 5px;
+    border: none;
+    background-color: #1ea1ff;
+}
+
+.info_btn:hover{
+    width:60px;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 1px;
+    border: none;
+    background-color: #3cadfe;
+    transition: .1s;
+}
+
+.admin_popup{
+    width: 700px;
+    left: 15%;
+    position: absolute;
+}
+
+.admin_popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+
+
+
+  /* ..................... DASHBOARD API ..................... */
+
+  .main_div{
+    width: 100%;
+    height: 100%;
+  }
+
+  .schedule_data{
+    width: 200px;
+    height: 40px;
+    border: solid 1px;
+}
+
+.Barko{
+    font-size: 35px;
+    font-family: sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Search2{
+    display: block;
+    width: 320px;
+    height: 45px;
+    outline: solid 1px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 4px;
+    transition: 0;
+    margin-left: 2%;
+}
+
+.Search2:hover{
+    display: block;
+    width: 320px;
+    height: 45px;
+    outline: solid 1px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 4px;
+    transition: 0s;
+    margin-left: 2%;
+}
+
+.schedule{
+    display: inline-flex;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 3.5%;
+}
+
+.Add_shed{
+    display: block;
+    width: 320px;
+    height: 47px;
+    outline: solid 1px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 17px;
+    margin-bottom: 10px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 4px;
+    transition: 0;
+    margin-left: 2%;
+    background-color: #0092f9;
+}
+
+.Add_shed:hover{
+    display: block;
+    width: 320px;
+    height: 47px;
+    outline: solid 1px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 17px;
+    margin-bottom: 10px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 4px;
+    transition: 0;
+    margin-left: 2%;
+    background-color: #1ea1ff;
+}
+
+.shed_info_div{
+    display: inline-flex;
+    width: 92%;
+    height:40px;
+    margin-left: 3.6%;
+}
+
+.shed_info_div:hover{
+    background-color: #CED4DA;
+    display: inline-flex;
+    width: 92%;
+    height:40px;
+    margin-left: 3.6%;
+}
+
+.shed_admin_labels{
+    width: 100%;
+    height: 28px;
+    font-size: 16px;
+    border-bottom: solid 1px;
+    padding-bottom: 6px;
+    padding-top: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.add_form{
+    width: 200px;
+    display: inline-flex;
+}
+
+.add_form_labels{
+    width: 200px;
+}
+
+.sched_info2{
+    display: inline-flex;
+    width: 92%;
+    margin-left: 1%;
+    transition: .05;
+}
+
+.sched_info2:hover{
+    display: inline-flex;
+    width: 92%;
+    margin-left: 1%;
+    background-color: #CED4DA;
+    border-radius: 10px;
+    transition: .05;
+}
+
+.email_input2{
+    width:600px;
+    height:200px;
+    margin-left:100px;
+    margin-top:40px;
+    font-size: 14px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    border: none;
+}
+
+.email_input{
+    width:600px;
+    margin-left:100px;
+    margin-top:40px;
+    height:40px;
+    font-size: 14px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    border: none;
+}
+
+.email_label{
+    width: 150px;
+    margin-top:40px;
+    font-size:16px;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
